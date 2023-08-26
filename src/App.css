@@ -1,0 +1,98 @@
+input:focus {
+  border: none;
+  outline: none;
+  border-bottom: 4px solid rgb(11, 47, 47);
+}
+* {
+  margin: 0;
+}
+body {
+  overflow-x: hidden;
+}
+.parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  /* Ensures the parent takes at least the full viewport height */
+}
+form {
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.613);
+  width: 100%;
+  padding: 100px;
+}
+ol {
+  text-align: left;
+  padding-inline-start: 0;
+}
+li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.btnStyling {
+  margin-left: 10px;
+}
+input {
+  width: 600px;
+  height: 40px;
+  border: none;
+  border-radius: 3px;
+  border-bottom: 2px solid rgb(11, 47, 47);
+  box-shadow: 0 2px 14px rgba(0, 0, 0, .4);
+  transition: border-bottom 0.1s;
+}
+body {
+  color: rgb(226, 226, 226);
+  background-color: rgba(0, 0, 0, 0.705);
+  background-image: url("https://plus.unsplash.com/premium_photo-1663840175582-26b1a542315d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.submitBtn {
+  margin-top: 15px;
+  background-color: transparent;
+  border: 2px solid rgb(11, 47, 47);
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  width: 150px;
+  height: 40px;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+.submitBtn:hover {
+  background-color: rgb(11, 47, 47);
+  border: 2px solid white;
+  color: white;
+}
+.data {
+  background-color: rgba(0, 0, 0, 0.613);
+  width: 40% !important;
+  height: 200px;
+  overflow-y: scroll;
+}
+.PData {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+.Remove {
+  background-color: rgb(11, 47, 47);
+  color: white;
+  border: none;
+  padding: 8px;
+}
+.RemoveAll {
+  background-color: rgb(11, 47, 47);
+  width: 100%;
+  height: 40px;
+  border-radius: 2px;
+  color: white;
+  border: none;
+  padding: 8px;
+}
