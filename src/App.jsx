@@ -57,7 +57,7 @@ function App() {
             </center>
           ) : (
             <ol>{orderList}
-             <button className="RemoveAll " style={{text:"center"}} onClick={()=>setOutput([])}> Remove ALL </button>
+             <button className="RemoveAll " style={{text:"center"}} onClick={()=>setOutput([])}> Remove All </button>
             </ol>
           )}
         </div>
